@@ -9,7 +9,7 @@ const features = [
   {
     icon: Car,
     title: "Todos os Veículos",
-    desc: "Carros, motos, caminhões e bikes elétricas com planos sob medida.",
+    desc: "Veículos de até 100 mil e bikes elétricas com planos sob medida.",
   },
   {
     icon: Clock,
