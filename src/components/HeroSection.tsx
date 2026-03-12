@@ -22,10 +22,10 @@ const HeroSection = () => {
           </div>
 
           <h1 className="font-heading font-black text-4xl sm:text-5xl md:text-7xl text-surface-dark-foreground leading-tight mb-6 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-            Seu Veículo{" "}
-            <span className="text-accent">Protegido</span>
+            Seu veículo{" "}
+            <span className="text-accent">protegido</span>
             <br />
-            24 Horas por Dia
+            24 horas por dia
           </h1>
 
           <p className="text-lg md:text-xl text-surface-dark-foreground/70 max-w-2xl mx-auto mb-10 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
@@ -53,17 +53,17 @@ const HeroSection = () => {
           {/* Vehicle types */}
           <div className="grid grid-cols-3 gap-4 max-w-md mx-auto opacity-0 animate-fade-in-up" style={{ animationDelay: "0.9s" }}>
             {[
-            { icon: Car, label: "Carros & Motos" },
-            { icon: Zap, label: "Bikes Elétricas" },
-            { icon: Shield, label: "Caminhões" }].
-            map((item) =>
-            <div key={item.label} className="flex flex-col items-center gap-2 text-surface-dark-foreground/60">
+              { icon: Car, label: "Carros & Motos" },
+              { icon: Zap, label: "Bikes Elétricas" },
+              { icon: Shield, label: "Veículos até 100 mil" }
+            ].map((item) => (
+              <div key={item.label} className="flex flex-col items-center gap-2 text-surface-dark-foreground/60">
                 <div className="w-12 h-12 rounded-full bg-primary/30 flex items-center justify-center">
                   <item.icon className="w-5 h-5 text-accent" />
                 </div>
                 <span className="text-xs font-medium">{item.label}</span>
               </div>
-            )}
+            ))}
           </div>
         </div>
 
@@ -73,6 +73,7 @@ const HeroSection = () => {
         </div>
       </div>
     </section>);
+
 
 };
 
