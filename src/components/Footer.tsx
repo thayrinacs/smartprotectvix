@@ -11,7 +11,7 @@ const Footer = () => {
               <span className="font-heading font-bold text-surface-dark-foreground">
                 SMART <span className="text-accent">PROTECT</span>
               </span>
-              <p className="text-xs text-surface-dark-foreground/50">Proteção Veicular</p>
+              <p className="text-xs text-surface-dark-foreground/50">SMARTPROTECT ASSOCIAÇÃO DE PROTEÇÃO VEICULAR</p>
             </div>
           </div>
 
