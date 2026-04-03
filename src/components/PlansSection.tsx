@@ -83,7 +83,6 @@ const PlansSection = () => {
         "Pane seca e hospedagem",
         "Reboque para borracharia",
         "Troca de pneus",
-        "Carro reserva 15 dias",
         "Terceiros até R$ 15 mil",
       ],
     },
