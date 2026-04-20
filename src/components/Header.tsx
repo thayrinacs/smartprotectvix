@@ -35,7 +35,7 @@ const Header = () => {
             </a>
           ))}
           <a
-            href="https://wa.me/5527999063796"
+            href="https://smartprotect.sapv.deltabit.com.br/crm/quotation?id=cj00NiZjPTU="
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-accent text-accent-foreground px-5 py-2.5 rounded-lg font-heading font-semibold text-sm hover:bg-accent/90 transition-colors animate-pulse-glow"
@@ -66,7 +66,7 @@ const Header = () => {
             </a>
           ))}
           <a
-            href="https://wa.me/5527999063796"
+            href="https://smartprotect.sapv.deltabit.com.br/crm/quotation?id=cj00NiZjPTU="
             target="_blank"
             rel="noopener noreferrer"
             className="mt-2 flex items-center justify-center gap-2 bg-accent text-accent-foreground px-5 py-3 rounded-lg font-heading font-semibold"

@@ -108,7 +108,7 @@ const FeedbacksSection = () => {
             Estamos sempre gerando histórias de satisfação
           </p>
           <a
-            href={`https://wa.me/5527999063796?text=Olá! Gostaria de conhecer mais sobre a Smart Protect.`}
+            href="https://smartprotect.sapv.deltabit.com.br/crm/quotation?id=cj00NiZjPTU="
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-3.5 rounded-xl font-heading font-bold transition-all"

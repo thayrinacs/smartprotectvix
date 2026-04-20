@@ -51,7 +51,7 @@ const PlanCard = ({ name, icon, tier, benefits, highlight }: PlanProps) => {
       </ul>
 
       <a
-        href={`https://wa.me/5527999063796?text=Olá! Tenho interesse no plano ${name}.`}
+        href="https://smartprotect.sapv.deltabit.com.br/crm/quotation?id=cj00NiZjPTU="
         target="_blank"
         rel="noopener noreferrer"
         className={`block text-center py-3.5 rounded-xl font-heading font-bold transition-all ${

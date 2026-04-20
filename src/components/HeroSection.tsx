@@ -35,7 +35,7 @@ const HeroSection = () => {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.7s" }}>
             <a
-              href="https://wa.me/5527999063796?text=Olá! Gostaria de fazer uma cotação de proteção veicular."
+              href="https://smartprotect.sapv.deltabit.com.br/crm/quotation?id=cj00NiZjPTU="
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto bg-accent text-accent-foreground px-8 py-4 rounded-xl font-heading font-bold text-lg hover:bg-accent/90 transition-all animate-pulse-glow">
