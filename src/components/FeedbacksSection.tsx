@@ -56,16 +56,9 @@ const feedbacks: Feedback[] = [
 const FeedbackCard = ({ feedback }: { feedback: Feedback }) => {
   return (
     <div className="bg-background rounded-2xl p-6 md:p-8 border border-border shadow-sm hover:shadow-lg transition-all">
-      <div className="flex items-center gap-4 mb-4">
-        <img
-          src={feedback.image}
-          alt={feedback.name}
-          className="w-12 h-12 rounded-full object-cover"
-        />
-        <div>
-          <h4 className="font-heading font-bold text-foreground">{feedback.name}</h4>
-          <p className="text-sm text-muted-foreground">{feedback.role}</p>
-        </div>
+      <div className="mb-4">
+        <h4 className="font-heading font-bold text-foreground">{feedback.name}</h4>
+        <p className="text-sm text-muted-foreground">{feedback.role}</p>
       </div>
 
       <div className="flex gap-1 mb-3">
@@ -108,7 +101,7 @@ const FeedbacksSection = () => {
             Estamos sempre gerando histórias de satisfação
           </p>
           <a
-            href="https://smartprotect.sapv.deltabit.com.br/crm/quotation?id=cj00NiZjPTU="
+            href={`https://wa.me/5527999063796?text=Olá! Gostaria de conhecer mais sobre a Smart Protect.`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-accent text-accent-foreground hover:bg-accent/90 px-8 py-3.5 rounded-xl font-heading font-bold transition-all"
